@@ -49,7 +49,7 @@ function App() {
                     }))
 
                         }} value={object.doneStatus} type="checkbox" name="" id="" />
-                  <p>{object.text+ "  Number "}{ i}</p>
+                  <p>{object.text}</p>
                 </div>
                 <div className="right">
                   <i onClick={()=>{
